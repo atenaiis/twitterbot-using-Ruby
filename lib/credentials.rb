@@ -1,4 +1,4 @@
- require 'twitter'
+require 'twitter'
 require 'dotenv'
 Dotenv.load
 
