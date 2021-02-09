@@ -4,17 +4,22 @@
 > This is a solo project with Ruby for building a bot.
 
 - A bot developed in Ruby
-- Used Twitter’s APIs
+- Using two API's, to comment a twet and to share a birth event on current date but from a differen year
 - Sent application for a Twitter developer account
 
 # Instructios on how the twitter bot works
+If you want to have a version on your local work area:
+- Need to create a developer account for twitter. I leave the page for you to do it. [Twitter for Developers](https://github.com/atenaiis)
+- You will get 4 diiferent keys, after hiding the consumer_key, consumer_secret,    access_token and access_token_secret yClone this repository on your local machine, 
+- Rename the template.env. Its name should be just ".env"
+- Replace the content of the .env using the keys provided by Twitter.
+- Run the command bellow on your root folder to install the necessary dependencies of the project
 
-- After hiding the consumer_key, consumer_secret,    access_token and access_token_secret using .env gem I started with  code.
-- I used CLient object to access to the twitter API's 
-With client.search we are looking for specific word and taking the 5 most recent twitts and posting them adding ":Hey I love chocolate too, what are your favorite blogs?"
-and to others giving a like
+           bundle install
 
-![screenshot](./Things/work.png)
+- Run bin/main.rb  in your terminal
+
+![screenshot](./Things/main.png)
 
 - All this is happens by runing ruby bin/main.rb in terminal 
 
