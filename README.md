@@ -2,22 +2,20 @@
 
 
 > This is a solo project with Ruby for building a bot.
+- The aim of this project was to build a Twitter bot developed in Ruby
+- Using two API's, to comment a tweet and to share a twit with #chocolate and to share a birth event on the current date but from a different year
 
-- A bot developed in Ruby
-- Using two API's, to comment a twet and to share a birth event on current date but from a differen year
-- Sent application for a Twitter developer account
-
-# Instructios on how the twitter bot works
-If you want to have a version on your local work area:
-- Need to create a developer account for twitter. I leave the page for you to do it. [Twitter for Developers](https://github.com/atenaiis)
-- You will get 4 diiferent keys, after hiding the consumer_key, consumer_secret,    access_token and access_token_secret yClone this repository on your local machine, 
+# Instructios on how the Twitter bot works
+If you want to have a version in your local work area:
+- Need to create a developer account for Twitter. I leave the page for you to do it. [Twitter for Developers](https://github.com/atenaiis)
+- You will get 4 different keys, after hiding the consumer_key, consumer_secret, access_token, and access_token_secret,  clone this repository on your local machine,from https://github.com/atenaiis/twitterbot-using-Ruby.git
 - Rename the template.env. Its name should be just ".env"
 - Replace the content of the .env using the keys provided by Twitter.
-- Run the command bellow on your root folder to install the necessary dependencies of the project
+- Run the command below on your root folder to install the necessary dependencies of the project
 
-           bundle install
+bundle install
 
-- Run bin/main.rb  in your terminal
+- Run bin/main.rb in your terminal
 
 ![screenshot](./Things/main.png)
 
