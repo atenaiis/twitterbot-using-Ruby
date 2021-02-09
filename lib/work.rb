@@ -8,9 +8,11 @@ class Chocolate
     config.access_token = ENV['ACCESS_TOKEN']
     config.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
   end
-  5.times do
-    client.search('#chocolate', result_type: 'recent').take(5).each do |tweet|
+
+  2.times do
+    client.search('#chocolate', result_type: 'recent').take(1).each do |tweet|
       client.update "#{tweet.user.screen_name}: #{tweet.text}:Hey I love chocolate too, what are your favorite blogs? "
+      sleep(30)
     end
   end
 end

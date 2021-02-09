@@ -1,10 +1,10 @@
-require_relative '../lib/credentials.rb'
+require_relative '../lib/credentials'
 
-    RSpec.describe TwitterBot do
-    let!(:all) do
-      @bot_test = TwitterBot.new
-    end
-    describe '#initialize' do
+RSpec.describe TwitterBot do
+  let!(:all) do
+    @bot_test = TwitterBot.new
+  end
+  describe '#initialize' do
     it 'test if it initialice and gives a Twitter object' do
       expect(@bot_test.class).to eq(TwitterBot)
     end

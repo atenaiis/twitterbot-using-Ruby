@@ -21,12 +21,10 @@ bundle install
 
 - All this is happens by runing ruby bin/main.rb in terminal 
 
-![screenshot](./Things/main.png)
-
 ## Built With
 
 -Ruby
-
+- json
 ## Install
 - Download Ruby from https://www.ruby-lang.org/en/ to run it locally .
 
@@ -64,4 +62,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [GNU](https://www.gnu.org/licenses/) licensed.
